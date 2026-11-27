@@ -1,0 +1,1 @@
+<StackPanel><TextBox Text="{Binding MotorName, UpdateSourceTrigger=PropertyChanged}"/><TextBlock Text="{Binding MotorName}"/></StackPanel>

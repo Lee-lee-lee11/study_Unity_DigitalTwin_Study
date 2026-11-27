@@ -1,0 +1,3 @@
+<TreeView ItemsSource="{Binding Roots}">
+ <TreeView.ItemTemplate><HierarchicalDataTemplate ItemsSource="{Binding Children}"><TextBlock Text="{Binding Name}"/></HierarchicalDataTemplate></TreeView.ItemTemplate>
+</TreeView>

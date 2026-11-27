@@ -1,0 +1,9 @@
+<Grid>
+ <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+ <Grid.ColumnDefinitions><ColumnDefinition Width="220"/><ColumnDefinition Width="*"/><ColumnDefinition Width="260"/></Grid.ColumnDefinitions>
+ <Menu Grid.ColumnSpan="3"><MenuItem Header="File"/></Menu>
+ <TreeView Grid.Row="1"><TreeViewItem Header="Factory"><TreeViewItem Header="Door"/></TreeViewItem></TreeView>
+ <Border x:Name="Viewport" Grid.Row="1" Grid.Column="1" Background="#293442"/>
+ <StackPanel Grid.Row="1" Grid.Column="2" Margin="12"><TextBlock Text="Properties"/><TextBox Text="60"/></StackPanel>
+ <StackPanel Grid.Row="2" Grid.ColumnSpan="3" Orientation="Horizontal"><Button Content="Start"/><Button Content="Stop"/></StackPanel>
+</Grid>

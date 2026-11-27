@@ -1,0 +1,1 @@
+{"schemaVersion":1,"steps":[{"id":"feed","action":"StartBelt","condition":"ProductDetected","timeout":5,"next":"extend"},{"id":"extend","action":"ExtendCylinder","condition":"ForwardLimit","timeout":3,"next":"retract"},{"id":"retract","action":"RetractCylinder","condition":"BackLimit","timeout":3,"next":"feed"}]}

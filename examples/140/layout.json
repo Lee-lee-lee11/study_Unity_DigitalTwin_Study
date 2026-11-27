@@ -1,0 +1,1 @@
+{"schemaVersion":1,"unit":"m","machines":[{"id":"machine-01","typeId":"door.v1","modelRelativePath":"models/door.glb","position":{"x":1,"y":0,"z":2},"yaw":90,"settings":{"speed":45}}]}

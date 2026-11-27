@@ -1,0 +1,5 @@
+// Add inside the existing MainWindow partial class.
+private void Start_Click(object sender, System.Windows.RoutedEventArgs e)
+{
+    StatusText.Text = "Running";
+}

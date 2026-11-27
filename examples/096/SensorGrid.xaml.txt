@@ -1,0 +1,3 @@
+<DataGrid ItemsSource="{Binding Sensors}" AutoGenerateColumns="False" IsReadOnly="True">
+ <DataGrid.Columns><DataGridTextColumn Header="ID" Binding="{Binding Id}"/><DataGridCheckBoxColumn Header="Value" Binding="{Binding Value}"/><DataGridTextColumn Header="Time" Binding="{Binding UpdatedAt}"/></DataGrid.Columns>
+</DataGrid>
